@@ -1,0 +1,20 @@
+.block {
+    background-color: #808080;
+    width: 600px;
+    height: 300px;
+    margin: 200px 0 20px 10px;
+    box-shadow: #d3b495 -15px -35px 15px 0px;
+}
+.content {
+    margin-left: 10px;
+    padding-left: 30px;
+    border-left: 5px solid red;
+}
+p {
+    margin: 0;
+}
+.text {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
