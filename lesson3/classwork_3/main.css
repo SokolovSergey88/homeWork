@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.header {
+    height: 200px;
+    background-color: #333333;
+    margin-bottom: 10px;
+}
+
+.wrapper {
+    display: flex;
+}
+
+.main {
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.sidebar {
+    width: 270px;
+    height: 400px;
+    background-color: #2d5d73;
+}
+
+.top {
+    background-color: #8cafa6;
+    height: 190px;
+    margin-bottom: 10px;
+    max-width: 620px;
+}
+
+.block {
+    background-color: #1b406b;
+    width: 200px;
+    height: 200px;
+    margin-right: 10px;
+}
