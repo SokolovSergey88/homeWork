@@ -1,0 +1,41 @@
+body{
+    box-sizing: border-box;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#header {
+    background-color: #E6F7B0;
+    height: 200px;
+    margin-bottom: 10px;
+}
+
+.wrapper {
+    display: flex;
+    row-gap: 10px;
+    column-gap: 10px;
+}
+
+#menu {
+    background-color: #FDB6FEFF;
+    width: 300px;
+    height: 700px;
+}
+
+.post {
+    background-color: #9EE0FEFF;
+    width: 900px;
+    height: 345px;
+}
+.inner{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    margin-bottom: 10px;
+}
+#footer{
+    background-color: #FDFDC9FF;
+    height: 200px;
+}
