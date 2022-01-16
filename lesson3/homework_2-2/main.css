@@ -1,0 +1,44 @@
+body {
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+h3 {
+    margin: 0;
+    color: #ffffff;
+    font-size: 30px;
+    text-align: center;
+}
+
+.widgets {
+    height: 300px;
+    background-color: #2268BBFF;
+    line-height: 300px;
+    margin-bottom: 10px;
+}
+
+.widgets__group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.widgets__item {
+    min-width: 290px;
+    height: 390px;
+    background-color: #16447AFF;
+    line-height: 390px;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.contact {
+    background-color: #2268BBFF;
+    height: 400px;
+    line-height: 400px;
+}
