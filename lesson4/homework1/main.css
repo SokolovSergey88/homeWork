@@ -1,0 +1,29 @@
+.container {
+    max-width: 930px;
+    margin: 100px auto 0;
+    padding: 0 15px;
+}
+
+.bg-base {
+    background-color: #D7D7D8FF;
+}
+
+.header {
+    height: 200px;
+    margin-bottom: 10px;
+}
+
+.wrapper {
+    display: flex;
+}
+
+.main {
+    width: 70%;
+    height: 500px;
+    margin-right: 10px;
+}
+
+.aside {
+    height: 500px;
+    width: 30%;
+}
