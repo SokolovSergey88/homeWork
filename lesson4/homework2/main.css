@@ -1,0 +1,47 @@
+.container {
+    max-width: 930px;
+    margin: 50px auto;
+    padding: 0 15px;
+}
+
+h2 {
+    margin: 0;
+}
+
+.base-style {
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    height: 200px;
+    background-color: #0C64A7FF;
+}
+
+.nav {
+    height: 150px;
+    background-color: #124A78FF;
+}
+
+.wrapper {
+    display: flex;
+}
+
+.main {
+    height: 500px;
+    background-color: #16A1C4FF;
+    width: 70%;
+}
+
+.aside {
+    height: 500px;
+    width: 30%;
+    background-color: #5174ADFF;
+}
+
+.footer {
+    height: 200px;
+    background-color: #7BCAE2FF;
+}
