@@ -1,0 +1,18 @@
+* {
+    box-sizing: border-box;
+}
+body, h3, p {
+    margin: 0;
+    background-color: #06BBD3FF;
+}
+.container {
+    max-width: 930px;
+    margin: 50px auto;
+    padding: 0 15px;
+}
+.df{
+    display: flex;
+}
+.item {
+    background-color: #fff;
+}
