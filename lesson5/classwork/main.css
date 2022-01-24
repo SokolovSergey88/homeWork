@@ -1,0 +1,134 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #B4CAD6;
+}
+
+p {
+    margin: 0;
+    font-size: 25px;
+    font-weight: 700;
+    width: 30px;
+    height: 30px;
+    background-color: #000000;
+    border-radius: 50%;
+    color: #ffffff;
+    text-align: center;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 100px auto;
+    background-color: #E7E7E8;
+}
+
+.df {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.bd {
+    border: 3px solid #000000;
+}
+
+.one {
+    height: 50px;
+}
+
+.two {
+    width: 200px;
+    height: 900px;
+}
+
+.three {
+    height: 200px;
+    width: 1000px;
+}
+
+.four {
+    height: 100px;
+    width: 1000px;
+}
+
+.five {
+    width: 800px;
+    height: 500px;
+}
+
+.six {
+    width: 200px;
+    height: 500px;
+}
+
+.seven {
+    height: 100px;
+    width: 1000px;
+}
+
+@media (min-width: 768px) and (max-width: 1210px) {
+    .container {
+        width: 660px;
+    }
+
+    .two {
+        display: none;
+    }
+
+    .three,
+    .four,
+    .seven {
+        width: 660px;
+    }
+
+    .five,
+    .six {
+        width: 660px;
+    }
+
+    .four {
+        height: 300px;
+    }
+
+    .six {
+        height: 300px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+    .container {
+        width: 320px;
+    }
+
+    .one {
+        height: 100px;
+    }
+
+    .two {
+        display: none;
+    }
+
+    .wrapper div {
+        width: 320px;
+    }
+
+    .three {
+        height: 100px;
+    }
+
+    .four {
+        height: 200px;
+    }
+
+    .five,
+    .six {
+        height: 300px;
+    }
+
+    .seven {
+        height: 50px;
+    }
+}
