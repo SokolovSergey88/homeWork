@@ -3,16 +3,50 @@
 }
 body, h3, p {
     margin: 0;
+}
+body {
     background-color: #06BBD3FF;
 }
 .container {
     max-width: 930px;
-    margin: 50px auto;
+    margin: 200px auto;
     padding: 0 15px;
 }
 .df{
     display: flex;
 }
+.wrapper {
+    flex-wrap: wrap;
+}
+.box {
+    width: 440px;
+}
 .item {
-    background-color: #fff;
+    background-color: #ffffff;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+}
+.item-box {
+    justify-content: center;
+    align-items: center;
+    padding: 20px 20px;
+}
+.item-box > i {
+    width: 30px;
+    text-align: center;
+
+}
+i {
+    font-size: 25px;
+    font-weight: 400;
+    color: #979798FF;
+}
+.title {
+    margin-bottom: 10px;
+    color: #E9B127FF;
+}
+.text {
+    color: #979798FF;
+    width: 90%;
 }
